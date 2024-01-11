@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Fouzia's Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+        <div class="logo">
+            <a href="#">Your Logo</a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+</nav>
+
+<div class="main">
+  <section class="home">
+    <section>
+      <blockquote>
+        I am
+        <span id="redTitle"></span>
+      </blockquote>
+    </section>
+    <!-- <div class="pen__lines-wrapper">
+     <div class="pen__line"></div>
+     <div class="pen__line"></div>
+     <div class="pen__line"></div>
+     <div class="pen__line"></div>
+     <div class="pen__line"></div>
+     <div class="pen__line"></div>
+     <div class="pen__line"></div>
+     <div class="pen__line"></div>
+     <div class="pen__line"></div>
+     <div class="pen__line"></div>
+    </div> -->
+  </section>
+</div>
+
+
+
+
+<div class="about" style="height: 100vh;">
+
+  <div class="wrapper">
+    <div class="name">
+      Fouzia Iffat
+    </div>
+    <div class="content">
+      <h2>About me</h2>
+      <p>Hey there, internet wanderers! 👋 I'm Fouzia Iffat, your friendly neighborhood web developer with a twist. Hailing from the vibrant lands of Odisha, I took a scenic route to the world of coding. Picture this: a commerce grad (yep, that's BCom in my back pocket!), who dove headfirst into the mesmerizing sea of IT. 🎓➡️💻
+
+        <p>No classrooms or stern professors here – my journey into coding was self-charted, powered by sheer curiosity and an insatiable thirst for all things tech. It's like assembling a thousand-piece puzzle, but the picture is the internet, and every line of code I write is a piece that fits just right. 🧩
+        </p>
+        <p>When I'm not busy translating coffee into code, you can find me geeking out over the latest tech trends or daydreaming about the next big web innovation. I believe that technology is a canvas, and I'm here with my palette of codes to paint a world where creativity meets functionality. 🎨💻
+        </p>
+        <p>So, whether you're here to explore my digital creations or just passing by, welcome to my corner of the web – where commerce meets coding, and every day is a new adventure in the land of ones and zeroes! 🌐🚀</p>
+      </p>
+        <div class="links">
+         <a href="http://blog.ajduke.in" target="_blank">http://blog.ajduke.in</a>
+        <a href="https://codepen.io/ajduke" target="_blank">https://codepen.io/ajduke</a>
+        <a href="" class="location">Mumbai, India</a>
+      </div>
+      
+      <div class="stats">
+        <div class="block">
+          <div class="num">350</div>
+          <span class="text">Followers</span>
+        </div>
+        <div class="block">
+          <div class="num">245</div>
+          <span class="text">Following</span>
+        </div>
+        <div class="block">
+          <div class="num">24</div>
+          <span class="text">Pens</span>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+
+  <!-- <nav id="navbar">
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <div class="nav-toggle" id="nav-toggle">Menu</div>
+  </nav>
+
+
+
+  <div class="main">
+    <section data-identity="Batman">
+      <blockquote>
+        I am
+        <span></span>
+      </blockquote>
+    </section>
+  </div>
+   -->
+  <script src="script.js"></script>
+</body>
+</html>
